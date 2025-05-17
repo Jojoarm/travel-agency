@@ -46,7 +46,7 @@ const TripCard = ({
                 key={index}
                 text={getFirstWord(tag)}
                 cssClass={cn(
-                  index === 1
+                  index === 0
                     ? '!bg-pink-50 !text-pink-500'
                     : '!bg-success-50 !text-success-700'
                 )}

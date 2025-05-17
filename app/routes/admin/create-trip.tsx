@@ -77,8 +77,8 @@ const CreateTrip = ({ loaderData }: Route.ComponentProps) => {
         body: JSON.stringify({
           country: formData.country,
           numberOfDays: formData.duration,
-          travelStyles: formData.travelStyle,
-          interests: formData.interest,
+          travelStyle: formData.travelStyle,
+          interest: formData.interest,
           budget: formData.budget,
           groupType: formData.groupType,
           userId: user.$id,
